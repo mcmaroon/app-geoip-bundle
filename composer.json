@@ -1,0 +1,17 @@
+{
+    "name": "mcmaroon/app-geoip-bundle",
+    "type": "application",
+    "description": "AppBundle",
+    "authors": [
+        {
+            "name": "Marek C",
+            "email": "mcmaroonmc@gmail.com"
+        }
+    ],
+    "require": {
+        "mcmaroon/app-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "App\\GeoIpBundle\\": "" }
+    }
+}
